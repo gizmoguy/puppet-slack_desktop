@@ -1,0 +1,15 @@
+{
+  "name": "puppet-slack_desktop",
+  "version": "0.1.0",
+  "author": "Brad Cowie",
+  "summary": "Installs slack desktop for Linux.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/gizmoguy/puppet-slack_desktop",
+  "project_page": "https://github.com/gizmoguy/puppet-slack_desktop",
+  "issues_url": "https://github.com/gizmoguy/puppet-slack_desktop/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+    {"name":"puppetlabs-apt","version_requirement":"<= 1.8.0"},
+  ]
+}
+
